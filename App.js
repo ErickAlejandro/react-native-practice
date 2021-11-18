@@ -14,7 +14,8 @@ export default function App() {
         <Text>Hello Word!</Text>
         <Text>Esta es mi primera aplicación en ReactNative.</Text>
         <Saludar FirstName="Kenlly" LastName="Ovaco Quindi" />
-        {<Saludar FirstName="Erick" LastName="Ayala" />}
+        <Saludar FirstName="Erick" LastName="Ayala" />
+        <Saludar FirstName="Esteban" LastName="Palomeque" />
         {/* <Saludar FirstName="Kenlly" LastName="Ovaco" /> */}
         {/* <Saludar FirstName="Gabriela" LastName="Barros" /> */}
       </View>
