@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, Button } from "react-native";
+import { Text, Button, SafeAreaView } from "react-native";
 
 export default function HomeScreen(props) {
   const { navigation } = props; //Vamos a usar esta constante para poder aplicar la navegacion por toda al aplicacion
@@ -8,12 +8,12 @@ export default function HomeScreen(props) {
   };
 
   return (
-    <View>
+    <SafeAreaView>
       <Text>Estamos en HomeScreen </Text>
       <Text>Estamos en HomeScreen </Text>
       <Text>Estamos en HomeScreen </Text>
       <Text>Estamos en HomeScreen </Text>
       <Button onPress={GoToSettings} title="Ir Ajustes" />
-    </View>
+    </SafeAreaView>
   );
 }
